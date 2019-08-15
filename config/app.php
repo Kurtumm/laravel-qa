@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Laravel QA'),
 
     /*
     |--------------------------------------------------------------------------
@@ -119,7 +119,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY'),
+    'key' => env('APP_KEY', 'base64:Tsiur9pU+5Cc4vgqIlkGrFmPXVDsFIUJjruB9N/OB8c='),
 
     'cipher' => 'AES-256-CBC',
 
